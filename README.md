@@ -1,8 +1,8 @@
 # Existence Is Pain
 
-The name is based off of this scene from Rick & Morty: https://youtu.be/QrQZg-gNC_k?t=18s
+The name is based off of [this memorable scene](https://youtu.be/QrQZg-gNC_k?t=18s) from Rick & Morty.
 
-This is going to be a game a multiplayer version of the classic game Snake. The goal isn't to be original. I want to learn some stuff about video game programming, especially multiplayer game servers.
+This is going to be a large multiplayer version of the classic game Snake. The goal isn't to be original. I want to learn some stuff about video game programming, especially multiplayer game servers.
 
 # Client
 
@@ -10,17 +10,17 @@ The client is going to be JavaScript. I'd like to try two versions of the client
 
 ## 2D
 
-https://phaser.io/
+[Phaser.io](https://phaser.io/)
 
 ## 3D
 
-https://threejs.org/
+[Three.js](https://threejs.org/)
 
 # Server
 
 In order to learn and expand my knowledge, I'm going to attempt make the same backend in three different languages. Why these particular three? Because I want to learn them.
 
-I'd also like to somehow encorporate RabbitMQ into the project: https://www.rabbitmq.com/
+I'd also like to somehow encorporate [RabbitMQ](https://www.rabbitmq.com/) into the project.
 
 ## Elixir
 
@@ -69,7 +69,7 @@ Libs I might use:
 
 # Resources
 
-* http://gameprogrammingpatterns.com/
+* [Game Programming Patterns by Bob Nystrom](http://gameprogrammingpatterns.com/)
 
 # FAQ
 
