@@ -70,3 +70,18 @@ Libs I might use:
 # Resources
 
 * http://gameprogrammingpatterns.com/
+
+# FAQ
+
+* Noah this is dumb.
+  * [That's not a question.](https://www.youtube.com/watch?v=KIBw10VUcNQ&feature=youtu.be&t=2s)
+* Why Elixir?
+  * Because I want to learn it.
+* Why PHP?
+  * Because I want to learn it.
+* Why Go?
+  * Because I want to learn it.
+* Why Javascript/Phaser/ThreeJS?
+  * Because I want to learn it.
+* Why not XYZ?
+  * Because I don't want to learn it right now.
