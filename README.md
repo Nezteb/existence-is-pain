@@ -66,3 +66,7 @@ Libs I might use:
   * https://github.com/wgliang/goreporter
 * Other
   * https://github.com/ReactiveX/RxGo
+
+# Resources
+
+* http://gameprogrammingpatterns.com/
