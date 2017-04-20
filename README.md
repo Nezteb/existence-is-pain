@@ -27,7 +27,6 @@ I'd also like to somehow encorporate [RabbitMQ](https://www.rabbitmq.com/) into 
 Libs I might use:
 * WebSockets:
   * https://github.com/meh/elixir-socket
-  * 
 * Concurrency/Parallelism
   * https://github.com/elixir-lang/flow
 * Static Analysis

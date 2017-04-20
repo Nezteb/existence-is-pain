@@ -1,0 +1,31 @@
+# OS X
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+*.app/
+
+# Editors
+.vscode/
+
+# Vagrant
+.vagrant/
+
+# Archives/Blobs
+*.dmg
+*.gz
+*.iso
+*.tar
+*.zip
+
+# Temp and swap files
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+*.bak
