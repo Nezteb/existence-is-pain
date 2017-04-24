@@ -35,6 +35,7 @@ Libs I might use:
   * https://github.com/jeremyjh/dialyxir
 * Other
   * https://github.com/alfert/reaxive
+  * https://github.com/sasa1977/fsm
 
 ## PHP
 
@@ -51,6 +52,7 @@ Libs I might use:
   * https://github.com/phpmetrics/PhpMetrics
 * Other
   * https://github.com/ReactiveX/RxPHP
+  * https://github.com/yohang/Finite
 
 ## Go
 
@@ -65,6 +67,7 @@ Libs I might use:
   * https://github.com/wgliang/goreporter
 * Other
   * https://github.com/ReactiveX/RxGo
+  * https://github.com/looplab/fsm
 
 # Resources
 
