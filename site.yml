@@ -1,0 +1,7 @@
+---
+- name: Existence Is Pain
+  hosts: localhost
+  tasks:
+  - name: Echo some stuff.
+    command: echo "Hello nerds."
+

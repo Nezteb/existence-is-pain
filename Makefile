@@ -1,1 +1,5 @@
-# TODO: Write a Makefile...
+test:
+	echo "Hello nerds."
+
+clean:
+	echo "Cleaning..."

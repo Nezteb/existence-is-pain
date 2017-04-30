@@ -1,3 +1,3 @@
 #!/bin/bash
 
-# TODO: Write a provision script...
+echo "Hello nerds."
