@@ -20,7 +20,7 @@ The client is going to be JavaScript. I'd like to try two versions of the client
 
 In order to learn and expand my knowledge, I'm going to attempt make the same backend in three different languages. Why these particular three? Because I want to learn them.
 
-I'd also like to somehow encorporate [RabbitMQ](https://www.rabbitmq.com/) into the project.
+I'd also like to somehow encorporate [RabbitMQ](https://www.rabbitmq.com/) and/or [Redis](https://redis.io/) into the project.
 
 ## Elixir
 
