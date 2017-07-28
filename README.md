@@ -6,7 +6,7 @@ This is going to be a large multiplayer version of the classic game Snake. The g
 
 # Client
 
-The client is going to be JavaScript. I'd like to try two versions of the client.
+The client is going to be JavaScript (ES6 specifically). I'd like to try two versions of the client.
 
 ## 2D
 
@@ -18,7 +18,7 @@ The client is going to be JavaScript. I'd like to try two versions of the client
 
 # Server
 
-In order to learn and expand my knowledge, I'm going to attempt make the same backend in three different languages. Why these particular three? Because I want to learn them.
+In order to learn and expand my knowledge, I'm going to attempt make the same backend in two different languages. Why these particular three? Because I want to learn them.
 
 I'd also like to somehow encorporate [RabbitMQ](https://www.rabbitmq.com/) and/or [Redis](https://redis.io/) into the project.
 
@@ -54,21 +54,6 @@ Libs I might use:
   * https://github.com/ReactiveX/RxPHP
   * https://github.com/yohang/Finite
 
-## Go
-
-Libs I might use:
-
-* WebSockets:
-  * https://github.com/gorilla/websocket
-  * https://github.com/networkprotocol/netcode.io
-* Concurrency/Parallelism
-  * https://github.com/Jeffail/tunny
-* Static Analysis
-  * https://github.com/wgliang/goreporter
-* Other
-  * https://github.com/ReactiveX/RxGo
-  * https://github.com/looplab/fsm
-
 # Resources
 
 * [Game Programming Patterns by Bob Nystrom](http://gameprogrammingpatterns.com/)
@@ -80,8 +65,6 @@ Libs I might use:
 * Why Elixir?
   * Because I want to learn it.
 * Why PHP?
-  * Because I want to learn it.
-* Why Go?
   * Because I want to learn it.
 * Why Javascript/Phaser/ThreeJS?
   * Because I want to learn it.
