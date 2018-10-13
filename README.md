@@ -1,6 +1,6 @@
 # Existence Is Pain
 
-The name is based off of [this memorable scene](https://youtu.be/QrQZg-gNC_k?t=18s) from Rick & Morty.
+The name is based off of [this memorable scene](https://youtu.be/ZA9Dvh4Fyf8?t=29s) from Rick & Morty.
 
 This is going to be a large multiplayer version of the classic game Snake. The goal isn't to be original. I want to learn some stuff about video game programming, especially multiplayer game servers.
 
