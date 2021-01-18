@@ -4,6 +4,12 @@ The name is based off of [this memorable scene](https://youtu.be/ZA9Dvh4Fyf8?t=2
 
 This is going to be a large multiplayer version of the classic game Snake. The goal isn't to be original. I want to get some practice with multiplayer video game servers.
 
+## Third Party Tools:
+
+* Hosting: Heroku (with Postgres and RabbitMQ addons)
+  * Self-hosting option: Docker/Minikube/Ansible?
+* Logs: Free plan of papertrail.com, sumologic.com, newrelic.com, datadog.com, splunk.com, loggly.com, or maybe self-hosted ELK stack?
+
 # Server
 
 In order to learn and expand my knowledge, I'm going to attempt make the same backend in two different languages for learning purposes.
@@ -59,12 +65,6 @@ Try to incorporate:
 * Svelte?
 
 TODO: Maybe use Haxe to program a client that can cross-compile to a bunch of different targets. 🤔
-
-## Third Party Tools:
-
-* Hosting: Heroku (with Postgres and RabbitMQ addons)
-  * Self-hosting option: Docker/Minikube/Ansible?
-* Logs: papertrail.com or timber.io
 
 # Resources
 
