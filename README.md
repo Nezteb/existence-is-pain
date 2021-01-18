@@ -2,57 +2,69 @@
 
 The name is based off of [this memorable scene](https://youtu.be/ZA9Dvh4Fyf8?t=29s) from Rick & Morty.
 
-This is going to be a large multiplayer version of the classic game Snake. The goal isn't to be original. I want to learn some stuff about video game programming, especially multiplayer game servers.
-
-# Client
-
-The client is going to be JavaScript (ES6 specifically). I'd like to try two versions of the client.
-
-## 2D
-
-[Phaser.io](https://phaser.io/)
-
-## 3D
-
-[Three.js](https://threejs.org/)
+This is going to be a large multiplayer version of the classic game Snake. The goal isn't to be original. I want to get some practice with multiplayer video game servers.
 
 # Server
 
-In order to learn and expand my knowledge, I'm going to attempt make the same backend in two different languages. Why these particular three? Because I want to learn them.
+In order to learn and expand my knowledge, I'm going to attempt make the same backend in two different languages for learning purposes.
 
-I'd also like to somehow encorporate [RabbitMQ](https://www.rabbitmq.com/) and/or [Redis](https://redis.io/) into the project.
+Some things I want to incorporate:
+* Postgres
+* Websockets
+* RabbitMQ
+* Redis
+* User auth (Auth0, Google OAuth)
+* Feature flags (ConfigCat)
+* gRPC (with HTTP API bridge)
+  * NATS?
+* Apache Kafka/Pulsar?
 
 ## Elixir
 
-Libs I might use:
-* WebSockets:
-  * https://github.com/meh/elixir-socket
-* Concurrency/Parallelism
-  * https://github.com/elixir-lang/flow
-* Static Analysis
-  * https://elixir-recipes.github.io/types/type-checking/
-  * https://github.com/rrrene/credo
-  * https://github.com/jeremyjh/dialyxir
-* Other
-  * https://github.com/alfert/reaxive
-  * https://github.com/sasa1977/fsm
+Language-specific libs I will try to use:
+* https://github.com/phoenixframework/phoenix
+* https://github.com/elixir-ecto/ecto
+* https://github.com/phoenixframework/phoenix_live_view
+* https://github.com/rrrene/credo
+* https://github.com/jeremyjh/dialyxir
+* https://github.com/dashbitco/flow
+* https://github.com/dashbitco/broadway
+* https://github.com/dashbitco/mox
+* https://github.com/ash-project/ash
 
-## PHP
+## Kotlin:
 
-Libs I might use:
-* WebSockets:
-  * https://github.com/walkor/Workerman
-  * https://github.com/walkor/phpsocket.io
-  * https://github.com/ratchetphp/Ratchet
-  * https://github.com/amphp/aerys
-* Concurrency/Parallelism
-  * https://github.com/amphp/amp
-* Static Analysis
-  * https://github.com/etsy/phan
-  * https://github.com/phpmetrics/PhpMetrics
-* Other
-  * https://github.com/ReactiveX/RxPHP
-  * https://github.com/yohang/Finite
+Language-specific libs I will try to use:
+* https://github.com/ktorio/ktor
+* https://github.com/google/dagger
+* https://github.com/JetBrains/Exposed
+* https://github.com/arrow-kt/arrow
+* https://github.com/lagom/lagom (Play/Akka)
+* https://github.com/spring-projects/spring-framework
+
+There might need to be 3 different endpoints for the Ktor/Dagger instance, the Lagom/Play/Akka instance, and the Spring instance.
+
+# Client
+
+One of the clients will use Phoenix LiveView (listed above). The purely browser-side clients is going to be the simplest part, mostly because I prefer to focus on the backend. I'll use TypeScript. I'd like to try two versions of the client:
+
+- 2D: [Phaser.io](https://phaser.io/)
+- 3D: [Three.js](https://threejs.org/)
+
+Try to incorporate:
+* Typescript
+* React + React Router (use hooks)
+* Yarn? Webpack?
+* RxJS?
+* Svelte?
+
+TODO: Maybe use Haxe to program a client that can cross-compile to a bunch of different targets. 🤔
+
+## Third Party Tools:
+
+* Hosting: Heroku (with Postgres and RabbitMQ addons)
+  * Self-hosting option: Docker/Minikube/Ansible?
+* Logs: papertrail.com or timber.io
 
 # Resources
 
@@ -61,12 +73,10 @@ Libs I might use:
 # FAQ
 
 * Noah this is dumb.
-  * [That's not a question.](https://www.youtube.com/watch?v=KIBw10VUcNQ&feature=youtu.be&t=2s)
-* Why Elixir?
-  * Because I want to learn it.
-* Why PHP?
-  * Because I want to learn it.
-* Why Javascript/Phaser/ThreeJS?
-  * Because I want to learn it.
+  * [That's not a question.](https://www.youtube.com/watch?v=KIBw10VUcNQ&t=2s)
+* Why Elixir/Kotlin?
+  * Because that's what I'm interested in learning.
+* Why TypeScript/Phaser/ThreeJS?
+  * Because that's what I'm interested in learning.
 * Why not XYZ?
-  * Because I don't want to learn it right now.
+  * Because I'm not interested in learning that right now.
