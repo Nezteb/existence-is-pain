@@ -13,7 +13,7 @@ Some things I want to incorporate:
 * Websockets
 * RabbitMQ
 * Redis
-* User auth (Auth0, Google OAuth)
+* User auth (Auth0, Google OAuth, Keycloak?, Ory Hydra?)
 * Feature flags (ConfigCat)
 * gRPC (with HTTP API bridge)
   * NATS?
