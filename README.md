@@ -53,7 +53,9 @@ There might need to be 3 different endpoints for the Ktor/Dagger instance, the L
 
 # Client
 
-One of the clients will use Phoenix LiveView (listed above). The purely browser-side clients is going to be the simplest part, mostly because I prefer to focus on the backend. I'll use TypeScript. I'd like to try two versions of the client:
+One of the clients will use Phoenix LiveView (listed above). That shouldn't involve much (if any) browser-side JavaScript.
+
+The purely browser-side clients are hopefully going to be the simplest part, mostly because I prefer to focus on the backend. I'll use TypeScript. I'd like to try two versions of the client, but I may give up on that if I'm feeling particularly lazy:
 
 - 2D: [Phaser.io](https://phaser.io/)
 - 3D: [Three.js](https://threejs.org/)
